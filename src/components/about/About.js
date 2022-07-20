@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../../image/cover.png";
 import "../../styel/header.css";
+import Happyclient from "./Happyclient";
 
 const About = () => {
   return (
@@ -38,7 +39,7 @@ const About = () => {
             </p>
           </div>
           <div className="bg-color py-8">
-            <div className="px-32">
+            <div className="md:px-32">
               <div class="carousel ">
                 <div id="slide1" class="carousel-item relative w-full">
                   <div>
@@ -158,6 +159,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      <Happyclient />
     </div>
   );
 };
