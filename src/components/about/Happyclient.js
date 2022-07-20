@@ -34,7 +34,7 @@ const Happyclient = () => {
               </div>
               <div class="text-white ">
                 <div class="stat">
-                  <div class="stat-value">51+K</div>
+                  <div class="stat-value">51K+</div>
                   <p class="font-bold">Total students</p>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const Happyclient = () => {
             <div className="grid grid-cols-2 pt-14">
               <div class="text-white text-center">
                 <div class="stat">
-                  <div class="stat-value">41+K</div>
+                  <div class="stat-value">41K+</div>
                   <p class="font-bold">Students</p>
                 </div>
               </div>
