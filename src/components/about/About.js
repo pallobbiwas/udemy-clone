@@ -2,6 +2,7 @@ import React from "react";
 import img from "../../image/cover.png";
 import "../../styel/header.css";
 import Brand from "./Brand";
+import Card from "./Card";
 import Happyclient from "./Happyclient";
 import Quite from "./Quite";
 
@@ -164,6 +165,7 @@ const About = () => {
       <Happyclient />
       <Quite />
       <Brand />
+      <Card />
     </div>
   );
 };
