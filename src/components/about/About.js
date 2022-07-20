@@ -1,7 +1,9 @@
 import React from "react";
 import img from "../../image/cover.png";
 import "../../styel/header.css";
+import Brand from "./Brand";
 import Happyclient from "./Happyclient";
+import Quite from "./Quite";
 
 const About = () => {
   return (
@@ -160,6 +162,8 @@ const About = () => {
         </div>
       </section>
       <Happyclient />
+      <Quite />
+      <Brand />
     </div>
   );
 };
