@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../shared/Footer';
 import Header from '../shared/Header';
 import About from './About';
 
@@ -7,6 +8,7 @@ const Allabout = () => {
         <div>
             <Header>
                 <About />
+                <Footer />
             </Header>
         </div>
     );
