@@ -175,7 +175,8 @@ const BlogLastPart = () => {
               "
                 href="#g"
               >
-                Further Embedding Belonging, Equity, Diversity, and Inclusion (BEDI) at Udemy
+                Further Embedding Belonging, Equity, Diversity, and Inclusion
+                (BEDI) at Udemy
               </a>
               <p className="mt-5">
                 When I started at Udemy in 2016 in San Francisco, I did what
@@ -222,7 +223,8 @@ const BlogLastPart = () => {
               "
                 href="#g"
               >
-                Women’s History Month: Hear how Udemy enables opportunities for women everywhere
+                Women’s History Month: Hear how Udemy enables opportunities for
+                women everywhere
               </a>
               <p className="mt-5">
                 When I started at Udemy in 2016 in San Francisco, I did what
@@ -245,7 +247,8 @@ const BlogLastPart = () => {
               "
                 href="#g"
               >
-                The History of Historically Black Colleges and Universities (HBCUs)
+                The History of Historically Black Colleges and Universities
+                (HBCUs)
               </a>
               <p className="mt-5">
                 When I started at Udemy in 2016 in San Francisco, I did what
@@ -320,6 +323,14 @@ const BlogLastPart = () => {
                 hiring...
               </p>
             </div>
+          </div>
+        </div>
+        <div class="btn-group flex justify-center mt-10 mb-5">
+          <div className="">
+            <button class="btn">1</button>
+            <button class="btn btn-active mx-2">2</button>
+            <button class="btn">3</button>
+            <button class="btn ml-2">4</button>
           </div>
         </div>
       </section>
