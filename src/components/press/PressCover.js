@@ -109,6 +109,79 @@ const PressCover = () => {
             </p>
           </div>
         </div>
+        <div className="text-center text-blue-600">
+          <a className="font-bold" href="#see">
+            See more news...
+          </a>
+        </div>
+      </section>
+      <section className="md:px-40">
+        <div className="text-center mb-10">
+          <h1 className="text-4xl font-bold ">Press Releases</h1>
+        </div>
+        <div className="mb-16">
+          <h1 className="text-2xl font-bold mb-3 text-blue-600">
+            june 23, 2022
+          </h1>
+          <p className="text-4xl font-bold">
+            <a href="#g">
+              Udemy Business Announces Expansions and New Customers In the
+              Asia-Pacific Region
+            </a>
+          </p>
+        </div>
+        <div className="mb-16">
+          <h1 className="text-2xl font-bold mb-3 text-blue-600">
+            june 23, 2022
+          </h1>
+          <p className="text-4xl font-bold">
+            <a href="#g">
+              Udemy Business Announces Expansions and New Customers In the
+              Asia-Pacific Region
+            </a>
+          </p>
+        </div>
+        <div className="mb-16">
+          <h1 className="text-2xl font-bold mb-3 text-blue-600">
+            june 23, 2022
+          </h1>
+          <p className="text-4xl font-bold">
+            <a href="#g">
+              Udemy Business Announces Expansions and New Customers In the
+              Asia-Pacific Region
+            </a>
+          </p>
+        </div>
+        <div className="mb-16">
+          <h1 className="text-2xl font-bold mb-3 text-blue-600">
+            june 23, 2022
+          </h1>
+          <p className="text-4xl font-bold">
+            <a href="#g">
+              Udemy Business Announces Expansions and New Customers In the
+              Asia-Pacific Region
+            </a>
+          </p>
+        </div>
+        <div className="text-center text-blue-600">
+          <a className="font-bold" href="#see">
+            See more news...
+          </a>
+        </div>
+      </section>
+      <section className=" bg-color mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:px-32 items-center">
+          <div>
+            <img
+              src="https://about.udemy.com/wp-content/uploads/2021/09/upskilling-marquee5-1.png"
+              alt=""
+            />
+          </div>
+          <div className="ml-10">
+            <h3 className="text-3xl font-bold mb-3">Interested in building a learning culture?</h3>
+            <p className="text-blue-600"><a href="#f">Check out The Upskilling Imperative</a></p>
+          </div>
+        </div>
       </section>
     </div>
   );
