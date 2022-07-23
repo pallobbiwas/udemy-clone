@@ -1,9 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Allabout from "./components/about/Allabout";
+import Blogs from "./components/blog/Blogs";
+import Career from "./components/career/Career";
+import Comapny from "./components/company/Comapny";
 import UsgUdemy from "./components/usgUdemy/UsgUdemy";
-import Blogs from "./components/blog/Blogs"
-import Comapny from "./components/company/Comapny"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/usgudemy" element={<UsgUdemy />}></Route>
         <Route path="/blogs" element={<Blogs />}></Route>
         <Route path="/company" element={<Comapny />}></Route>
+        <Route path="/career" element={<Career />}></Route>
       </Routes>
     </div>
   );

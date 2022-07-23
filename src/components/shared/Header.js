@@ -44,7 +44,7 @@ const Header = ({ children }) => {
                     <Link to="/company">Company</Link>
                   </li>
                   <li>
-                    <Link to="/about">Careers</Link>
+                    <Link to="/career">Careers</Link>
                   </li>
                   <li className="mx-8">
                     <Link to="/about">Press</Link>
