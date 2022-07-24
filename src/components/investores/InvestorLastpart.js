@@ -135,7 +135,7 @@ const InvestorLastpart = () => {
           </div>
         </div>
       </section>
-      <section className="md:px-32 my-16">
+      <section className="md:px-32 mt-16">
         <div className="py-16 px-5">
           <h1 className="text-center text-4xl font-bold mb-10">Latest News</h1>
           <div className="grid grid-cols-1 md:grid-cols-3">
@@ -163,7 +163,7 @@ const InvestorLastpart = () => {
           </div>
         </div>
       </section>
-      <section className="md:px-32 my-16 bg-color">
+      <section className="md:px-32 mb-16 bg-color">
         <div className="py-16 px-5">
           <h1 className="text-center text-4xl font-bold mb-10">
             Recent Events
