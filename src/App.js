@@ -4,6 +4,7 @@ import Allabout from "./components/about/Allabout";
 import Blogs from "./components/blog/Blogs";
 import Career from "./components/career/Career";
 import Comapny from "./components/company/Comapny";
+import Investores from "./components/investores/Investores";
 import Press from "./components/press/Press";
 import UsgUdemy from "./components/usgUdemy/UsgUdemy";
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/company" element={<Comapny />}></Route>
         <Route path="/career" element={<Career />}></Route>
         <Route path="/press" element={<Press />}></Route>
+        <Route path="/investor" element={<Investores />}></Route>
       </Routes>
     </div>
   );

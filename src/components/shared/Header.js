@@ -50,7 +50,7 @@ const Header = ({ children }) => {
                     <Link to="/press">Press</Link>
                   </li>
                   <li>
-                    <Link to="/about">Investors</Link>
+                    <Link to="/investor">Investors</Link>
                   </li>
                 </ul>
                 <ul className="menu menu-horizontal">
