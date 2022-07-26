@@ -27,11 +27,14 @@ const CareerBanner = () => {
       </section>
       <section className="md:px-32 my-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="my-10 mr-5">
-            <img
-              src="https://about.udemy.com/wp-content/uploads/2021/07/learners.png"
-              alt=""
-            />
+          <div className="my-10 mr-5 md:text-left text-center">
+            <div className="flex justify-center w-full md:block">
+              <img
+                className="w-16"
+                src="https://about.udemy.com/wp-content/uploads/2021/07/learners.png"
+                alt=""
+              />
+            </div>
             <h2 className="text-3xl font-bold my-4">We are learners</h2>
             <p>
               Enjoy a yearly learning stipend, office-wide learning events,
@@ -40,11 +43,14 @@ const CareerBanner = () => {
               try teaching? Use our in-house production studio to film courses.
             </p>
           </div>
-          <div className="mr-5">
-            <img
-              src="https://about.udemy.com/wp-content/uploads/2021/07/navigators.png"
-              alt=""
-            />
+          <div className=" my-10 mr-5 md:text-left text-center">
+            <div className="flex justify-center w-full md:block">
+              <img
+                className="w-16"
+                src="https://about.udemy.com/wp-content/uploads/2021/07/navigators.png"
+                alt=""
+              />
+            </div>
             <h2 className="text-3xl font-bold my-4">We are navigators</h2>
             <p>
               Enjoy a yearly learning stipend, office-wide learning events,
@@ -53,11 +59,14 @@ const CareerBanner = () => {
               try teaching? Use our in-house production studio to film courses.
             </p>
           </div>
-          <div className="mr-5">
-            <img
-              src="https://about.udemy.com/wp-content/uploads/2021/07/download.png"
-              alt=""
-            />
+          <div className="mr-5 md:text-left text-center">
+            <div className="flex justify-center w-full md:block">
+              <img
+                className="w-16"
+                src="https://about.udemy.com/wp-content/uploads/2021/07/download.png"
+                alt=""
+              />
+            </div>
             <h2 className="text-3xl font-bold my-4">We make an impact</h2>
             <p>
               Enjoy a yearly learning stipend, office-wide learning events,
@@ -66,11 +75,14 @@ const CareerBanner = () => {
               try teaching? Use our in-house production studio to film courses.
             </p>
           </div>
-          <div className="mr-5">
-            <img
-              src="https://about.udemy.com/wp-content/uploads/2021/07/global.png"
-              alt=""
-            />
+          <div className="mr-5 md:text-left text-center">
+            <div className="flex justify-center w-full md:block">
+              <img
+                className="w-16"
+                src="https://about.udemy.com/wp-content/uploads/2021/07/global.png"
+                alt=""
+              />
+            </div>
             <h2 className="text-3xl font-bold my-4">We are global</h2>
             <p>
               Enjoy a yearly learning stipend, office-wide learning events,
@@ -111,31 +123,31 @@ const CareerBanner = () => {
       </section>
       <section className="md:px-32 my-32">
         <div className="text-center">
-          <h1 className="text-2xl font-bold mb-2">Our Core Values</h1>
+          <h1 className="text-4xl font-bold mb-2">Our Core Values</h1>
           <a className="text-blue-600" href="#f">
             Learn more about our values
           </a>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 mt-10">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-4  mt-10 gap-4">
+          <div className="flex justify-center">
             <img
               src="https://about.udemy.com/wp-content/uploads/2021/07/Brand-Values_illos_color_Mission-Inspired-1.png"
               alt=""
             />
           </div>
-          <div>
+          <div className="flex justify-center">
             <img
               src="https://about.udemy.com/wp-content/uploads/2021/07/Brand-Values_Always-Learning.png"
               alt=""
             />
           </div>
-          <div>
+          <div className="flex justify-center">
             <img
               src="https://about.udemy.com/wp-content/uploads/2021/07/Brand-Values_illos_Individually-Humble.png"
               alt=""
             />
           </div>
-          <div>
+          <div className="flex justify-center">
             <img
               src="https://about.udemy.com/wp-content/uploads/2021/07/Brand-Values_Earnestly-Authentic.png"
               alt=""

@@ -14,32 +14,32 @@ const Happyclient = () => {
           </div>
           <div className="md:px-32 pt-20">
             <div className="grid grid-cols-2 md:grid-cols-4 justify-around">
-              <div class="text-white ">
+              <div class="text-white text-center">
                 <div class="stat">
                   <div class="stat-value">82K+</div>
                   <p class="font-bold">Course</p>
                 </div>
               </div>
-              <div class="text-white ">
+              <div class="text-white text-center">
                 <div class="stat">
                   <div class="stat-value">98K+</div>
                   <p class="font-bold">Total apply</p>
                 </div>
               </div>
-              <div class="text-white ">
+              <div class="text-white text-center">
                 <div class="stat">
                   <div class="stat-value">76K+</div>
                   <p class="font-bold">Instructor</p>
                 </div>
               </div>
-              <div class="text-white ">
+              <div class="text-white text-center">
                 <div class="stat">
                   <div class="stat-value">51K+</div>
                   <p class="font-bold">Total students</p>
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 pt-14">
+            <div className="grid grid-cols-2 pt-14 ">
               <div class="text-white text-center">
                 <div class="stat">
                   <div class="stat-value">41K+</div>

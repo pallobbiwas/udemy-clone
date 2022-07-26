@@ -21,7 +21,7 @@ const BlogBanner = () => {
       </section>
       <section className="py-20 md:px-32">
         <div>
-          <ul className="flex">
+          <ul className="flex flex-wrap gap-6 justify-center md:justify-start">
             <li className="item mr-10 text-blue-600 font-bold">
               <a href="#g">All</a>
             </li>

@@ -16,7 +16,7 @@ const Quite = () => {
               Learn more
             </button>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-4 text-center md:text-left">
             <div>
               <div className="min-h-16">
                 <p className="text-6xl font-bold text-purple-600">“”</p>

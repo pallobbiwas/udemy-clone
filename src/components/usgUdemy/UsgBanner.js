@@ -5,8 +5,8 @@ import img6 from "../../image/ESG at Udemy/Best-Workplaces_withspacers-1.png";
 import img3 from "../../image/ESG at Udemy/BPTW.png";
 import headImg from "../../image/ESG at Udemy/esg-head2-759x490-1.png";
 import {
-    default as img2,
-    default as img4
+  default as img2,
+  default as img4
 } from "../../image/ESG at Udemy/Great-place-to-work.png";
 import introCeo from "../../image/ESG at Udemy/intro_ceo-1-newheadshot-1.png";
 import img11 from "../../image/ESG at Udemy/sasb_logo.png";
@@ -19,9 +19,9 @@ const UsgBanner = () => {
   return (
     <div className="mb-72">
       <section className="bg-color h-96">
-        <div className="grid grid-cols-1 md:grid-cols-2 pt-20 md:px-20 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 pt-20 md:px-20 gap-10">
           <div>
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-3xl md:text-5xl font-bold">
               Environmental, Social, and Corporate Governance at Udemy
             </h1>
           </div>
@@ -31,11 +31,11 @@ const UsgBanner = () => {
         </div>
       </section>
       <section className="pt-32 md:px-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center items-center">
           <div className="w-2/3">
             <img className="full" src={introCeo} alt="" />
           </div>
-          <div>
+          <div className="text-center md:text-left">
             <h1 className="font-bold text-4xl">
               Welcome from Gregg Coccari, CEO
             </h1>
@@ -82,8 +82,8 @@ const UsgBanner = () => {
           </div>
         </div>
       </section>
-      <section className="mt-20 bg-color pt-20 margin-bottom">
-        <div className="md:px-20 relative">
+      <section className="mt-20 bg-color pt-20 md:margin-bottom">
+        <div className="md:px-20 md:relative">
           <div className="grid grid-cols-1 md:grid-cols-2 items-baseline">
             <div>
               <h1 className="text-5xl font-bold mb-5">
@@ -101,7 +101,7 @@ const UsgBanner = () => {
               <img src={female} alt="" />
             </div>
           </div>
-          <div className="absolute bg-white top-3/4 right-20 left-20 py-20 px-10">
+          <div className="md:absolute bg-white top-3/4 right-20 left-20 py-20 px-10">
             <div className="pb-10">
               <h1 className="text-center text-4xl font-bold pb-4">
                 Udemy’s ESG Goals, Policies and Reporting

@@ -15,31 +15,31 @@ const Brand = () => {
       <section className="bg-color py-10 my-14">
         <div className="md:px-32">
           <div className="grid grid-cols-2 md:grid-cols-5 justify-center py-10">
-            <div clasName="">
+            <div clasName="text-center">
               <img className="w-40 h-20 mb-10" src={img1} alt="" />
             </div>
-            <div clasName="">
+            <div clasName="text-center">
               <img className="w-40 h-12" src={img2} alt="" />
             </div>
-            <div clasName="">
+            <div clasName="text-center">
               <img className="w-40 h-12" src={img3} alt="" />
             </div>
-            <div clasName="">
+            <div clasName="text-center">
               <img className="w-40 h-12" src={img4} alt="" />
             </div>
-            <div clasName="">
+            <div clasName="text-center">
               <img className="w-40 h-12" src={img5} alt="" />
             </div>
-            <div clasName="">
+            <div clasName="text-center">
               <img className="w-40 h-12" src={img6} alt="" />
             </div>
-            <div clasName="">
+            <div clasName="text-center">
               <img className="w-40 h-12" src={img7} alt="" />
             </div>
-            <div clasName="">
+            <div clasName="text-center">
               <img className="w-40 h-12" src={img8} alt="" />
             </div>
-            <div clasName="">
+            <div clasName="text-center">
               <img className="w-40 h-12" src={img9} alt="" />
             </div>
           </div>

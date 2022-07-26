@@ -53,7 +53,7 @@ const UsgLastPart = () => {
             <div className="mr-5 mb-5">
               <div>
                 <iframe
-                  width="560"
+                  className="w-full"
                   height="315"
                   src="https://www.youtube.com/embed/3gP5Yr0leVc"
                   title="YouTube video player"
@@ -78,7 +78,7 @@ const UsgLastPart = () => {
             <div className="ml-5 mb-5">
               <div>
                 <iframe
-                  width="560"
+                  className="w-full"
                   height="315"
                   src="https://www.youtube.com/embed/3gP5Yr0leVc"
                   title="YouTube video player"
@@ -103,7 +103,7 @@ const UsgLastPart = () => {
             <div className="mr-5 mt-5">
               <div>
                 <iframe
-                  width="560"
+                  className="w-full"
                   height="315"
                   src="https://www.youtube.com/embed/3gP5Yr0leVc"
                   title="YouTube video player"
@@ -128,7 +128,7 @@ const UsgLastPart = () => {
             <div className="ml-5 mt-5">
               <div>
                 <iframe
-                  width="560"
+                  className="w-full"
                   height="315"
                   src="https://www.youtube.com/embed/3gP5Yr0leVc"
                   title="YouTube video player"
