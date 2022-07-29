@@ -5,6 +5,8 @@ import Blogs from "./components/blog/Blogs";
 import Career from "./components/career/Career";
 import Comapny from "./components/company/Comapny";
 import Investores from "./components/investores/Investores";
+import Allcourse from "./components/myLearning/Allcourse";
+import MyLearning from "./components/myLearning/MyLearning";
 import Press from "./components/press/Press";
 import UsgUdemy from "./components/usgUdemy/UsgUdemy";
 
@@ -20,6 +22,9 @@ function App() {
         <Route path="/career" element={<Career />}></Route>
         <Route path="/press" element={<Press />}></Route>
         <Route path="/investor" element={<Investores />}></Route>
+        <Route path="/myLearning" element={<MyLearning />}>
+          <Route path=":allcourse" element={<Allcourse />}></Route>
+        </Route>
       </Routes>
     </div>
   );
