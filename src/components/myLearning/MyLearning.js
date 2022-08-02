@@ -1,11 +1,12 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import MyNavbar from "./MyNavbar";
 
 const MyLearning = () => {
   return (
     <div>
+      <MyNavbar />
       <div>
-        <h1>hello</h1>
         <Link to="allcourse">allcourse</Link>
         <Link className="mx-4" to="/">
           hello
