@@ -16,7 +16,7 @@ const About = () => {
             <div className="md:order-2">
               <img src={img} alt="" />
             </div>
-            <div className="text-3xl md:text-6xl font-bold md:order-1">
+            <div className="text-3xl md:text-6xl font-bold md:order-1 md:mr-32">
               <p>We share knowledge with the world</p>
             </div>
           </div>

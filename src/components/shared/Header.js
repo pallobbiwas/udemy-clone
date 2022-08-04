@@ -30,23 +30,23 @@ const Header = ({ children }) => {
 
             <div class="flex-none hidden lg:block">
               <div className="flex items-center lg:mr-6">
-                <ul class="menu menu-horizontal lg:mr-48">
+                <ul class="menu menu-horizontal lg:mr-48 font-bold text-1xl">
                   <li>
                     <Link to="/about">About</Link>
                   </li>
-                  <li className="md:mx-3">
+                  <li className="md:mx-10">
                     <Link to="/usgudemy">ESG at Udemy</Link>
                   </li>
                   <li>
                     <Link to="/blogs">Blog</Link>
                   </li>
-                  <li className="md:mx-3">
+                  <li className="md:mx-10">
                     <Link to="/company">Company</Link>
                   </li>
                   <li>
                     <Link to="/career">Careers</Link>
                   </li>
-                  <li className="md:mx-3">
+                  <li className="md:mx-10">
                     <Link to="/press">Press</Link>
                   </li>
                   <li>

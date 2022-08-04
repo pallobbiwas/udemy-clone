@@ -23,7 +23,9 @@ const MyNavbar = () => {
           <div class="dropdown dropdown-end flex items-center">
             <div className="flex mr-6">
               <Link to="/nan">Udemy Business</Link>
-              <Link className="mx-6" to="/nan">Tech on Udemy</Link>
+              <Link className="mx-6" to="/nan">
+                Tech on Udemy
+              </Link>
               <Link to="/nan">My Learning</Link>
               <Link className="mx-6" to="/nan">
                 <svg
@@ -41,7 +43,7 @@ const MyNavbar = () => {
                   />
                 </svg>
               </Link>
-              <Link className="mx-6" to="/nan">
+              <Link className="mr-6" to="/nan">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
@@ -74,9 +76,9 @@ const MyNavbar = () => {
                 </svg>
               </Link>
             </div>
-            <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-              <div class="w-10 rounded-full">
-                <img src="https://placeimg.com/80/80/people" alt=""/>
+            <label class="">
+              <div class="btn w-12 rounded-full bg-black flex items-center justify-center">
+                <div className=" text-white">p</div>
               </div>
             </label>
           </div>
