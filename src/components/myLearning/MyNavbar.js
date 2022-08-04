@@ -10,7 +10,7 @@ const MyNavbar = () => {
           <a class="btn btn-ghost normal-case text-3xl" href="#R">
             udemy
           </a>
-          <h1 className="mx-3">Catagories</h1>
+          <Link to='/#' className="mx-3">Catagories</Link>
           <div class="form-control ">
             <input
               type="text"
@@ -26,7 +26,7 @@ const MyNavbar = () => {
               <Link className="mx-6" to="/nan">
                 Tech on Udemy
               </Link>
-              <Link to="/nan">My Learning</Link>
+              <Link to="/myLearning">My Learning</Link>
               <Link className="mx-6" to="/nan">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

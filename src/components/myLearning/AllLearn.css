@@ -2,3 +2,6 @@
   width: 600px;
   max-width: 100%;
 }
+.borderall {
+  border: 1px solid black;
+}
