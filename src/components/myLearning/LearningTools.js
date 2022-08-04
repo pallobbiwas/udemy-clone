@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "./Modal";
 
 const LearningTools = () => {
   return (
@@ -15,7 +16,11 @@ const LearningTools = () => {
           Requires Google Calendar, Apple Calendar, or Outlook
         </small>
       </div>
-      <div className="flex btn w-64 rounded-none bg-purple-400 text-white outline-none border-none mt-3">
+      {/* modal */}
+
+     <Modal />
+      {/* modal */}
+      <label for="my-modal" className="flex btn w-64 rounded-none bg-purple-400 text-white outline-none border-none mt-3">
         <p>Schedule learning time </p>
         <p>
           <svg
@@ -33,7 +38,8 @@ const LearningTools = () => {
             />
           </svg>
         </p>
-      </div>
+      </label>
+
       <div className="mt-5">
         <h2 className="text-2xl font-bold">Push notifications</h2>
         <p className="mt-5 mb-4">
