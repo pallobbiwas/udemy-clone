@@ -1,12 +1,14 @@
-import React from 'react';
-
+import React from "react";
+import TextEditor from "./TextEditor";
 
 const Notes = () => {
-    return (
-        <div>
-            <h1>j</h1>
-        </div>
-    );
+  return (
+    <div>
+      <div className="editor">
+        <TextEditor />
+      </div>
+    </div>
+  );
 };
 
 export default Notes;
