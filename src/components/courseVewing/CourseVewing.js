@@ -1,4 +1,6 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
+import CustomLink from "../../hooks/CustomLink";
 import Footer from "../shared/Footer";
 import CourseHeader from "./CourseHeader";
 
@@ -6,7 +8,51 @@ const CourseVewing = () => {
   return (
     <div>
       <CourseHeader />
-      <h1>hhh</h1>
+      <hr />
+      {/* vedio */}
+      <div>
+        <div>
+          <iframe
+            className="w-full"
+            height="500"
+            src="https://www.youtube.com/embed/3gP5Yr0leVc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      {/* nexted route layout */}
+      <div>
+      <div>
+        <div className="py-2">
+          <div className="md:px-32">
+            <div className="flex">
+              <CustomLink to="allcourse" className=" text-1xl font-bold">
+                All courses
+              </CustomLink>
+              <CustomLink className="mx-4 text-1xl font-bold" to="mylist">
+                My lists
+              </CustomLink>
+              <CustomLink to="wishlist" className=" text-1xl font-bold">
+                Wishlist
+              </CustomLink>
+              <CustomLink className="mx-4 text-1xl font-bold" to="archived">
+                Archived
+              </CustomLink>
+              <CustomLink to="learningtools" className=" text-1xl font-bold">
+                Learnig tools
+              </CustomLink>
+            </div>
+            <hr />
+          </div>
+        </div>
+        <div className="md:px-32 mt-5">
+          <Outlet></Outlet>
+        </div>
+      </div>
+      </div>
       <div>
         <div className="bg-black py-4">
           <div className="md:px-16 text-white flex justify-between">

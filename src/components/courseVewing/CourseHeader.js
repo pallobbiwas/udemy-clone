@@ -34,7 +34,7 @@ const CourseHeader = () => {
               </button>
             </div>
           </div>
-          <div className="flex btn bg-black outline rounded-none px-4 mx-3">
+          <div className="flex btn bg-black outline-1 rounded-none px-4 mx-3">
             <p>Share </p>
             <p className="ml-3">
               {" "}
@@ -48,7 +48,7 @@ const CourseHeader = () => {
               </svg>
             </p>
           </div>
-          <div className="btn bg-black outline rounded-none px-2">
+          <div className="btn bg-black outline-1 rounded-none px-2">
             <p>...</p>
           </div>
         </div>
