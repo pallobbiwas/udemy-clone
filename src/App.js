@@ -6,6 +6,7 @@ import Career from "./components/career/Career";
 import Comapny from "./components/company/Comapny";
 import CourseContent from "./components/courseVewing/CourseContent";
 import CourseVewing from "./components/courseVewing/CourseVewing";
+import Notes from "./components/courseVewing/Notes";
 import Investores from "./components/investores/Investores";
 import Allcourse from "./components/myLearning/Allcourse";
 import Archived from "./components/myLearning/Archived";
@@ -40,7 +41,7 @@ function App() {
         <Route path="/coursevewing" element={<CourseVewing />}>
           <Route path="coursecontent" element={<CourseContent />}></Route>
           <Route path="overview" element={<MyList />}></Route>
-          <Route path="notes" element={<Wishlist />}></Route>
+          <Route path="notes" element={<Notes />}></Route>
           <Route path="announcement" element={<Archived />}></Route>
           <Route path="review" element={<LearningTools />}></Route>
           <Route path="learning" element={<LearningTools />}></Route>
