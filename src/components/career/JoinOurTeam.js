@@ -39,114 +39,154 @@ const JoinOurTeam = () => {
         </div>
       </div>
       <div className=" md:px-32 my-20">
-        <div
-          tabindex="0"
-          className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-        >
+        <div className="collapse collapse-arrow border border-base-300 mb-2 bg-base-100 ">
+          <input type="checkbox" class="peer" />
           <div className="collapse-title text-xl font-medium">
             Focus me to see content
           </div>
           <div className="collapse-content">
-            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laudantium debitis doloremque iusto reiciendis obcaecati ab cumque
+              ratione fugiat aliquam voluptatibus soluta magni enim totam
+              cupiditate repudiandae hic est rem deleniti, ullam velit nostrum
+              dicta porro cum? Labore, tempore nostrum?
+            </p>
           </div>
         </div>
-        <div
-          tabindex="0"
-          className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-        >
+        <div className="collapse collapse-arrow border border-base-300 mb-2 bg-base-100 ">
+          <input type="checkbox" class="peer" />
           <div className="collapse-title text-xl font-medium">
             Focus me to see content
           </div>
           <div className="collapse-content">
-            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laudantium debitis doloremque iusto reiciendis obcaecati ab cumque
+              ratione fugiat aliquam voluptatibus soluta magni enim totam
+              cupiditate repudiandae hic est rem deleniti, ullam velit nostrum
+              dicta porro cum? Labore, tempore nostrum?
+            </p>
           </div>
         </div>
-        <div
-          tabindex="0"
-          className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-        >
+        <div className="collapse collapse-arrow border border-base-300 mb-2 bg-base-100 ">
+          <input type="checkbox" class="peer" />
           <div className="collapse-title text-xl font-medium">
             Focus me to see content
           </div>
           <div className="collapse-content">
-            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laudantium debitis doloremque iusto reiciendis obcaecati ab cumque
+              ratione fugiat aliquam voluptatibus soluta magni enim totam
+              cupiditate repudiandae hic est rem deleniti, ullam velit nostrum
+              dicta porro cum? Labore, tempore nostrum?
+            </p>
           </div>
         </div>
-        <div
-          tabindex="0"
-          className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-        >
+        <div className="collapse collapse-arrow border border-base-300 mb-2 bg-base-100 ">
+          <input type="checkbox" class="peer" />
           <div className="collapse-title text-xl font-medium">
             Focus me to see content
           </div>
           <div className="collapse-content">
-            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laudantium debitis doloremque iusto reiciendis obcaecati ab cumque
+              ratione fugiat aliquam voluptatibus soluta magni enim totam
+              cupiditate repudiandae hic est rem deleniti, ullam velit nostrum
+              dicta porro cum? Labore, tempore nostrum?
+            </p>
           </div>
         </div>
-        <div
-          tabindex="0"
-          className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-        >
+        <div className="collapse collapse-arrow border border-base-300 mb-2 bg-base-100 ">
+          <input type="checkbox" class="peer" />
           <div className="collapse-title text-xl font-medium">
             Focus me to see content
           </div>
           <div className="collapse-content">
-            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laudantium debitis doloremque iusto reiciendis obcaecati ab cumque
+              ratione fugiat aliquam voluptatibus soluta magni enim totam
+              cupiditate repudiandae hic est rem deleniti, ullam velit nostrum
+              dicta porro cum? Labore, tempore nostrum?
+            </p>
           </div>
         </div>
-        <div
-          tabindex="0"
-          className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-        >
+        <div className="collapse collapse-arrow border border-base-300 mb-2 bg-base-100 ">
+          <input type="checkbox" class="peer" />
           <div className="collapse-title text-xl font-medium">
             Focus me to see content
           </div>
           <div className="collapse-content">
-            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laudantium debitis doloremque iusto reiciendis obcaecati ab cumque
+              ratione fugiat aliquam voluptatibus soluta magni enim totam
+              cupiditate repudiandae hic est rem deleniti, ullam velit nostrum
+              dicta porro cum? Labore, tempore nostrum?
+            </p>
           </div>
         </div>
-        <div
-          tabindex="0"
-          className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-        >
+        <div className="collapse collapse-arrow border border-base-300 mb-2 bg-base-100 ">
+          <input type="checkbox" class="peer" />
           <div className="collapse-title text-xl font-medium">
             Focus me to see content
           </div>
           <div className="collapse-content">
-            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laudantium debitis doloremque iusto reiciendis obcaecati ab cumque
+              ratione fugiat aliquam voluptatibus soluta magni enim totam
+              cupiditate repudiandae hic est rem deleniti, ullam velit nostrum
+              dicta porro cum? Labore, tempore nostrum?
+            </p>
           </div>
         </div>
-        <div
-          tabindex="0"
-          className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-        >
+        <div className="collapse collapse-arrow border border-base-300 mb-2 bg-base-100 ">
+          <input type="checkbox" class="peer" />
           <div className="collapse-title text-xl font-medium">
             Focus me to see content
           </div>
           <div className="collapse-content">
-            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laudantium debitis doloremque iusto reiciendis obcaecati ab cumque
+              ratione fugiat aliquam voluptatibus soluta magni enim totam
+              cupiditate repudiandae hic est rem deleniti, ullam velit nostrum
+              dicta porro cum? Labore, tempore nostrum?
+            </p>
           </div>
         </div>
-        <div
-          tabindex="0"
-          className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-        >
+        <div className="collapse collapse-arrow border border-base-300 mb-2 bg-base-100 ">
+          <input type="checkbox" class="peer" />
           <div className="collapse-title text-xl font-medium">
             Focus me to see content
           </div>
           <div className="collapse-content">
-            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laudantium debitis doloremque iusto reiciendis obcaecati ab cumque
+              ratione fugiat aliquam voluptatibus soluta magni enim totam
+              cupiditate repudiandae hic est rem deleniti, ullam velit nostrum
+              dicta porro cum? Labore, tempore nostrum?
+            </p>
           </div>
         </div>
-        <div
-          tabindex="0"
-          className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
-        >
+        <div className="collapse collapse-arrow border border-base-300 mb-2 bg-base-100">
+          <input type="checkbox" class="peer" />
           <div className="collapse-title text-xl font-medium">
             Focus me to see content
           </div>
           <div className="collapse-content">
-            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laudantium debitis doloremque iusto reiciendis obcaecati ab cumque
+              ratione fugiat aliquam voluptatibus soluta magni enim totam
+              cupiditate repudiandae hic est rem deleniti, ullam velit nostrum
+              dicta porro cum? Labore, tempore nostrum?
+            </p>
           </div>
         </div>
         <div className="mt-10">

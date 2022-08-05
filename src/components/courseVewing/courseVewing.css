@@ -4,3 +4,64 @@
   border: 1px solid rgb(250, 249, 248);
   border-radius: 15px;
 }
+
+li {
+  padding: 10px 0px;
+  cursor: pointer;
+  padding-left: 16px;
+}
+li:hover {
+  background-color: gray;
+  padding: 10px 0;
+  cursor: pointer;
+  padding-left: 16px;
+}
+.collapse-title,
+.collapse > input[type="checkbox"],
+.removePadding {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.removePadding {
+  grid-row-start: 2;
+  overflow: hidden;
+  max-height: 0px;
+  cursor: unset;
+  transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.collapse-open .removePadding,
+.collapse:focus:not(.collapse-close) .removePadding,
+.collapse:not(.collapse-close) input[type="checkbox"]:checked ~ .removePadding {
+  max-height: 9000px;
+}
+.collapse-open .removePadding,
+.collapse:focus:not(.collapse-close) .removePadding,
+.collapse:not(.collapse-close) input[type="checkbox"]:checked ~ .removePadding {
+  max-height: 9000px;
+}
+.collapse-open .removePadding,
+.collapse:focus:not(.collapse-close) .removePadding,
+.collapse:not(.collapse-close) input[type="checkbox"]:checked ~ .removePadding {
+  max-height: 9000px;
+}
+.collapse-open :where(.removePadding),
+.collapse:focus:not(.collapse-close) :where(.removePadding),
+.collapse:not(.collapse-close)
+  :where(input[type="checkbox"]:checked ~ .removePadding) {
+  padding-bottom: 1rem /* 16px */;
+  transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.collapse-open :where(.removePadding),
+.collapse:focus:not(.collapse-close) :where(.removePadding),
+.collapse:not(.collapse-close)
+  :where(input[type="checkbox"]:checked ~ .removePadding) {
+  padding-bottom: 1rem /* 16px */;
+  transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.collapse-open :where(.removePadding),
+.collapse:focus:not(.collapse-close) :where(.removePadding),
+.collapse:not(.collapse-close)
+  :where(input[type="checkbox"]:checked ~ .removePadding) {
+  padding-bottom: 1rem /* 16px */;
+  transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}

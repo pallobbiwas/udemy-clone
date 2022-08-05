@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import CustomLink from "../../hooks/CustomLink";
+import CourseLink from "../../hooks/CourseLink";
 import Footer from "../shared/Footer";
 import CourseHeader from "./CourseHeader";
 
@@ -28,22 +28,25 @@ const CourseVewing = () => {
       <div>
         <div className="py-2">
           <div className="md:px-32">
-            <div className="flex">
-              <CustomLink to="allcourse" className=" text-1xl font-bold">
-                All courses
-              </CustomLink>
-              <CustomLink className="mx-4 text-1xl font-bold" to="mylist">
-                My lists
-              </CustomLink>
-              <CustomLink to="wishlist" className=" text-1xl font-bold">
-                Wishlist
-              </CustomLink>
-              <CustomLink className="mx-4 text-1xl font-bold" to="archived">
-                Archived
-              </CustomLink>
-              <CustomLink to="learningtools" className=" text-1xl font-bold">
+            <div className="flex mb-3">
+              <CourseLink to="coursecontent" className=" text-1xl font-bold">
+                Course content
+              </CourseLink>
+              <CourseLink className="mx-4 text-1xl font-bold" to="overview">
+                Overview
+              </CourseLink>
+              <CourseLink to="notes" className=" text-1xl font-bold">
+                Notes
+              </CourseLink>
+              <CourseLink className="mx-4 text-1xl font-bold" to="announcement">
+              Announcement
+              </CourseLink>
+              <CourseLink className="mx-4 text-1xl font-bold" to="review">
+              Review
+              </CourseLink>
+              <CourseLink to="learning" className=" text-1xl font-bold">
                 Learnig tools
-              </CustomLink>
+              </CourseLink>
             </div>
             <hr />
           </div>
