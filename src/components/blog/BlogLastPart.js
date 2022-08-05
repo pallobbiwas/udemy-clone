@@ -325,12 +325,12 @@ const BlogLastPart = () => {
             </div>
           </div>
         </div>
-        <div class="btn-group flex justify-center mt-10 mb-5">
+        <div className="btn-group flex justify-center mt-10 mb-5">
           <div className="">
-            <button class="btn">1</button>
-            <button class="btn btn-active mx-2">2</button>
-            <button class="btn">3</button>
-            <button class="btn ml-2">4</button>
+            <button className="btn">1</button>
+            <button className="btn btn-active mx-2">2</button>
+            <button className="btn">3</button>
+            <button className="btn ml-2">4</button>
           </div>
         </div>
       </section>

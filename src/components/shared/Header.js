@@ -5,18 +5,18 @@ import "../../styel/header.css";
 const Header = ({ children }) => {
   return (
     <div>
-      <div class="drawer">
-        <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
-        <div class="drawer-content flex flex-col">
-          <div class="w-full navbar border-bottom ">
-            <div class="flex-1 text-3xl font-bold">Udemy</div>
-            <div class="flex-none lg:hidden">
-              <label for="my-drawer-3" class="btn btn-square btn-ghost">
+      <div className="drawer">
+        <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
+        <div className="drawer-content flex flex-col">
+          <div className="w-full navbar border-bottom ">
+            <div className="flex-1 text-3xl font-bold">Udemy</div>
+            <div className="flex-none lg:hidden">
+              <label for="my-drawer-3" className="btn btn-square btn-ghost">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  class="inline-block w-6 h-6 stroke-current"
+                  className="inline-block w-6 h-6 stroke-current"
                 >
                   <path
                     stroke-linecap="round"
@@ -28,9 +28,9 @@ const Header = ({ children }) => {
               </label>
             </div>
 
-            <div class="flex-none hidden lg:block">
+            <div className="flex-none hidden lg:block">
               <div className="flex items-center lg:mr-6">
-                <ul class="menu menu-horizontal lg:mr-48 font-bold text-1xl">
+                <ul className="menu menu-horizontal lg:mr-48 font-bold text-1xl">
                   <li>
                     <Link to="/about">About</Link>
                   </li>
@@ -62,9 +62,9 @@ const Header = ({ children }) => {
           </div>
           {children}
         </div>
-        <div class="drawer-side">
-          <label for="my-drawer-3" class="drawer-overlay"></label>
-          <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
+        <div className="drawer-side">
+          <label for="my-drawer-3" className="drawer-overlay"></label>
+          <ul className="menu p-4 overflow-y-auto w-80 bg-base-100">
             <li>
               <Link to="/about">About</Link>
             </li>

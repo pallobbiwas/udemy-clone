@@ -5,22 +5,22 @@ import "./AllLearn.css";
 const MyNavbar = () => {
   return (
     <div>
-      <div class="navbar bg-base-100">
-        <div class="flex-1">
-          <a class="btn btn-ghost normal-case text-3xl" href="#R">
+      <div className="navbar bg-base-100">
+        <div className="flex-1">
+          <a className="btn btn-ghost normal-case text-3xl" href="#R">
             udemy
           </a>
           <Link to='/#' className="mx-3">Catagories</Link>
-          <div class="form-control ">
+          <div className="form-control ">
             <input
               type="text"
               placeholder="Search"
-              class="input input-bordered rounded-full seach-box"
+              className="input input-bordered rounded-full seach-box"
             />
           </div>
         </div>
-        <div class="flex-none gap-2">
-          <div class="dropdown dropdown-end flex items-center">
+        <div className="flex-none gap-2">
+          <div className="dropdown dropdown-end flex items-center">
             <div className="flex mr-6">
               <Link to="/nan">Udemy Business</Link>
               <Link className="mx-6" to="/nan">
@@ -76,8 +76,8 @@ const MyNavbar = () => {
                 </svg>
               </Link>
             </div>
-            <label class="">
-              <div class="btn w-12 rounded-full bg-black flex items-center justify-center">
+            <label className="">
+              <div className="btn w-12 rounded-full bg-black flex items-center justify-center">
                 <div className=" text-white">p</div>
               </div>
             </label>

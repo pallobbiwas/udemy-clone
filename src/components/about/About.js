@@ -43,8 +43,8 @@ const About = () => {
           </div>
           <div className="bg-color py-8">
             <div className="md:px-32">
-              <div class="carousel ">
-                <div id="slide1" class="carousel-item relative w-full">
+              <div className="carousel ">
+                <div id="slide1" className="carousel-item relative w-full">
                   <div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-64">
                       <div>
@@ -72,17 +72,17 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">
+                  <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" className="btn btn-circle">
                       ❮
                     </a>
-                    <a href="#slide2" class="btn btn-circle">
+                    <a href="#slide2" className="btn btn-circle">
                       ❯
                     </a>
                   </div>
                 </div>
 
-                <div id="slide2" class="carousel-item relative w-full">
+                <div id="slide2" className="carousel-item relative w-full">
                   <div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-64">
                       <div>
@@ -110,17 +110,17 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">
+                  <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" className="btn btn-circle">
                       ❮
                     </a>
-                    <a href="#slide3" class="btn btn-circle">
+                    <a href="#slide3" className="btn btn-circle">
                       ❯
                     </a>
                   </div>
                 </div>
 
-                <div id="slide3" class="carousel-item relative w-full">
+                <div id="slide3" className="carousel-item relative w-full">
                   <div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-64">
                       <div>
@@ -148,11 +148,11 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">
+                  <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" className="btn btn-circle">
                       ❮
                     </a>
-                    <a href="#slide1" class="btn btn-circle">
+                    <a href="#slide1" className="btn btn-circle">
                       ❯
                     </a>
                   </div>

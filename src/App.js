@@ -4,6 +4,7 @@ import Allabout from "./components/about/Allabout";
 import Blogs from "./components/blog/Blogs";
 import Career from "./components/career/Career";
 import Comapny from "./components/company/Comapny";
+import CourseVewing from "./components/courseVewing/CourseVewing";
 import Investores from "./components/investores/Investores";
 import Allcourse from "./components/myLearning/Allcourse";
 import Archived from "./components/myLearning/Archived";
@@ -32,6 +33,9 @@ function App() {
           <Route path="wishlist" element={<Wishlist />}></Route>
           <Route path="archived" element={<Archived />}></Route>
           <Route path="learningtools" element={<LearningTools />}></Route>
+        </Route>
+        <Route path="/coursevewing" element={<CourseVewing />}>
+
         </Route>
       </Routes>
     </div>

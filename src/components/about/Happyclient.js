@@ -14,42 +14,42 @@ const Happyclient = () => {
           </div>
           <div className="md:px-32 pt-20">
             <div className="grid grid-cols-2 md:grid-cols-4 justify-around">
-              <div class="text-white text-center">
-                <div class="stat">
-                  <div class="stat-value">82K+</div>
-                  <p class="font-bold">Course</p>
+              <div className="text-white text-center">
+                <div className="stat">
+                  <div className="stat-value">82K+</div>
+                  <p className="font-bold">Course</p>
                 </div>
               </div>
-              <div class="text-white text-center">
-                <div class="stat">
-                  <div class="stat-value">98K+</div>
-                  <p class="font-bold">Total apply</p>
+              <div className="text-white text-center">
+                <div className="stat">
+                  <div className="stat-value">98K+</div>
+                  <p className="font-bold">Total apply</p>
                 </div>
               </div>
-              <div class="text-white text-center">
-                <div class="stat">
-                  <div class="stat-value">76K+</div>
-                  <p class="font-bold">Instructor</p>
+              <div className="text-white text-center">
+                <div className="stat">
+                  <div className="stat-value">76K+</div>
+                  <p className="font-bold">Instructor</p>
                 </div>
               </div>
-              <div class="text-white text-center">
-                <div class="stat">
-                  <div class="stat-value">51K+</div>
-                  <p class="font-bold">Total students</p>
+              <div className="text-white text-center">
+                <div className="stat">
+                  <div className="stat-value">51K+</div>
+                  <p className="font-bold">Total students</p>
                 </div>
               </div>
             </div>
             <div className="grid grid-cols-2 pt-14 ">
-              <div class="text-white text-center">
-                <div class="stat">
-                  <div class="stat-value">41K+</div>
-                  <p class="font-bold">Students</p>
+              <div className="text-white text-center">
+                <div className="stat">
+                  <div className="stat-value">41K+</div>
+                  <p className="font-bold">Students</p>
                 </div>
               </div>
-              <div class="text-white text-center">
-                <div class="stat">
-                  <div class="stat-value">75+</div>
-                  <p class=" font-bold">Teacher</p>
+              <div className="text-white text-center">
+                <div className="stat">
+                  <div className="stat-value">75+</div>
+                  <p className=" font-bold">Teacher</p>
                 </div>
               </div>
             </div>
