@@ -1,7 +1,9 @@
-import { convertToRaw, EditorState } from "draft-js";
-import draftToHtml from 'draftjs-to-html';
+import { EditorState } from "draft-js";
 import React, { Component } from "react";
 import { Editor } from "react-draft-wysiwyg";
+
+/* import { convertToRaw, EditorState } from "draft-js";
+import draftToHtml from 'draftjs-to-html'; */
 
 
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
@@ -20,9 +22,9 @@ export default class TextEditor extends Component {
 
   render() {
     const {editorState} = this.state;
-    console.log(draftToHtml(convertToRaw(editorState.getCurrentContent())));
+    // console.log(draftToHtml(convertToRaw(editorState.getCurrentContent())));
     return (
-      <div>
+      <div className="border h-52">
         <Editor
           editorState={editorState}
           toolbarClassName="toolbarClassName"
@@ -30,7 +32,6 @@ export default class TextEditor extends Component {
           editorClassName="editorClassName"
           onEditorStateChange={this.onEditorStateChange}
         />
-        ;
       </div>
     );
   }

@@ -5,12 +5,12 @@
   border-radius: 15px;
 }
 
-li {
+.list {
   padding: 10px 0px;
   cursor: pointer;
   padding-left: 16px;
 }
-li:hover {
+.list:hover {
   background-color: gray;
   padding: 10px 0;
   cursor: pointer;
