@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TextEditor from "./TextEditor";
 
 const Notes = () => {
-  const [change, setChange] = useState(false);
+  const [change, setChange] = useState(true);
   const time = new Date().toLocaleTimeString();
   console.log(change);
   return (

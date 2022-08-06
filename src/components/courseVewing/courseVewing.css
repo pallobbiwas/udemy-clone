@@ -16,6 +16,9 @@
   cursor: pointer;
   padding-left: 16px;
 }
+.bulet {
+  list-style: inside;
+}
 .collapse-title,
 .collapse > input[type="checkbox"],
 .removePadding {

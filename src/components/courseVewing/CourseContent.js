@@ -3,7 +3,7 @@ import "./courseVewing.css";
 
 const CourseContent = () => {
   return (
-    <div className="md:px-32">
+    <div className="md:px-32 mb-10">
       <div className="collapse collapse-arrow border border-base-300 bg-base-300">
         <input type="checkbox" class="peer" />
         <div className="collapse-title text-xl font-medium">
