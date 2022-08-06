@@ -68,3 +68,34 @@
   padding-bottom: 1rem /* 16px */;
   transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
+/* reviewja */
+.bar {
+  position: relative;
+  width: 100%;
+  appearance: none;
+  overflow: hidden;
+}
+.bar::-moz-progress-bar {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--n) / var(--tw-bg-opacity));
+}
+.bar:indeterminate::after {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--n) / var(--tw-bg-opacity));
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: -40%;
+  width: 33.333333%;
+
+  animation: progress-loading 5s infinite ease-in-out;
+}
+.bar::-webkit-progress-bar {
+  background-color: hsl(var(--n) / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.2;
+}
+.bar::-webkit-progress-value {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--nf, var(--n)) / var(--tw-bg-opacity));
+}
