@@ -8,6 +8,7 @@ import CourseContent from "./components/courseVewing/CourseContent";
 import CourseVewing from "./components/courseVewing/CourseVewing";
 import Notes from "./components/courseVewing/Notes";
 import Overview from "./components/courseVewing/Overview";
+import Reviews from "./components/courseVewing/Reviews";
 import Investores from "./components/investores/Investores";
 import Allcourse from "./components/myLearning/Allcourse";
 import Archived from "./components/myLearning/Archived";
@@ -44,7 +45,7 @@ function App() {
           <Route path="overview" element={<Overview />}></Route>
           <Route path="notes" element={<Notes />}></Route>
           <Route path="announcement" element={<Archived />}></Route>
-          <Route path="review" element={<LearningTools />}></Route>
+          <Route path="review" element={<Reviews />}></Route>
           <Route path="learning" element={<LearningTools />}></Route>
         </Route>
       </Routes>
