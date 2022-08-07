@@ -42,6 +42,7 @@ function App() {
 
         <Route path="/coursevewing" element={<CourseVewing />}>
           <Route path="coursecontent" element={<CourseContent />}></Route>
+          <Route index element={<CourseContent />}></Route>
           <Route path="overview" element={<Overview />}></Route>
           <Route path="notes" element={<Notes />}></Route>
           <Route path="announcement" element={<Archived />}></Route>
