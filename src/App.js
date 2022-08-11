@@ -4,6 +4,7 @@ import Allabout from "./components/about/Allabout";
 import Blogs from "./components/blog/Blogs";
 import Career from "./components/career/Career";
 import Comapny from "./components/company/Comapny";
+import Annoucment from "./components/courseVewing/Annoucment";
 import CourseContent from "./components/courseVewing/CourseContent";
 import CourseVewing from "./components/courseVewing/CourseVewing";
 import Notes from "./components/courseVewing/Notes";
@@ -45,7 +46,7 @@ function App() {
           <Route index element={<CourseContent />}></Route>
           <Route path="overview" element={<Overview />}></Route>
           <Route path="notes" element={<Notes />}></Route>
-          <Route path="announcement" element={<Archived />}></Route>
+          <Route path="announcement" element={<Annoucment />}></Route>
           <Route path="review" element={<Reviews />}></Route>
           <Route path="learning" element={<LearningTools />}></Route>
         </Route>

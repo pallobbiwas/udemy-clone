@@ -68,7 +68,7 @@
   padding-bottom: 1rem /* 16px */;
   transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
-/* reviewja */
+/* reviewjs */
 .bar {
   position: relative;
   width: 100%;
@@ -98,4 +98,10 @@
 .bar::-webkit-progress-value {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--nf, var(--n)) / var(--tw-bg-opacity));
+}
+
+/* annouchment */
+
+.wid {
+  width: 700px;
 }
